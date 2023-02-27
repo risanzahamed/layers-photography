@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -36,3 +37,46 @@
     transform: rotate(360deg);
   }
 }
+
+
+.slide-up{
+  animation: slide-up 0.7s cubic-bezier(0.65, 0, 0.35, 1) both
+}
+
+.slide-up-3{
+  animation: slide-up 0.8s cubic-bezier(0.65, 0, 0.35, 1) both
+}
+
+.slide-up-2{
+  animation: slide-up 0.5s cubic-bezier(0.65, 0, 0.35, 1) both
+}
+
+.slide-up-img{
+  animation: slide-up 0.5s cubic-bezier(0.65, 0, 0.35, 1) both
+}
+  
+@keyframes slide-up{
+  0%
+    {transform: translateY(100px)}
+  100%
+    {transform: translateY(0)}}
+
+@keyframes slide-up-2 {
+  0%
+    {transform: translateY(100px)}
+  100%
+    {transform: translateY(0)}}
+
+    @keyframes slide-up-3{
+      0%
+        {transform: translateY(100px)}
+      100%
+        {transform: translateY(0)}}
+
+@keyframes slide-up-img {
+  0%
+    {transform: translateY(100px)}
+  100%
+    {transform: translateY(0)}}
+
+
