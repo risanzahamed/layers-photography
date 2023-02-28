@@ -16,7 +16,6 @@ const MyReview = () => {
             })
     }, [user?.email])
 
-    console.log(currentUserReview.length);
     return (
         <div className='bg-[#040404]'>
             <div className='  lg:max-w-[1400px] mx-auto p-10'>

@@ -80,3 +80,59 @@
     {transform: translateY(0)}}
 
 
+/*With Simple Caption*/
+.column#caption {
+	position: relative;
+}
+.column#caption .text {
+		position: absolute;		
+    top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 10;
+    opacity: 0;
+    transition: all 0.8s ease;			
+}
+.column#caption .text h1 {		
+		margin: 0;		
+		color: black;
+}
+.column#caption:hover .text {
+	opacity: 1;
+	
+}
+.column#caption:hover img {
+	-webkit-filter: sepia(90%);
+}
+
+/* Craeted refering to LittleSnippets.net Pen: https://codepen.io/littlesnippets/pen/adLELd */
+.frame {
+	text-align: center;	
+  justify-content: center;
+	position: relative;
+	cursor: pointer;	
+	perspective: 900px; 
+}
+.frame img {
+	width: 520px;
+	height: 520px;
+}
+.frame .details {
+	width: 80%;
+	height: 80%;	
+	padding: 5% 8%;
+	position: absolute;
+	content: "";
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotateY(90deg);
+	transform-origin: 50%;
+	background: rgba(67, 67, 67, 0.9);	
+	opacity: 0;
+	transition: all 0.4s ease-in;
+	
+}
+.frame:hover .details {
+	transform: translate(-50%, -50%) rotateY(0deg);
+	opacity: 1;
+}

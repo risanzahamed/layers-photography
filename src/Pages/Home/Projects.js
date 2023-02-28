@@ -4,7 +4,8 @@ import TabsRender from './Tabs';
 const Projects = () => {
     return (
         <div>
-            <h2 className="text-3xl font-bold text-center lg:p-10 leading-tight mx-auto  lg:text-center mt-10 mb-10 text-white sm:text-4xl lg:text-5xl">My latest <span className='text-[#C48F56] '>projects.</span></h2>
+             <h2 class="text-3xl text-center font-bold font-serif leading-tight text-white sm:text-4xl lg:text-8xl lg:leading-tight m-14 p-14">My latest <span className='text-[#C48F56] '>projects.</span></h2>
+            
             <TabsRender/>
         </div>
     );

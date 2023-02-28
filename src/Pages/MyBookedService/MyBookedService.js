@@ -6,7 +6,7 @@ const MyBookedService = () => {
 
     const [userServiceBooked, setUserServiceBooked] = useState([]);
     const { user } = useContext(AuthContext);
-    console.log(user);
+
     useEffect(() => {
 
         fetch(`https://layers-photography-server.vercel.app/my-booked-service?email=${user?.email}`)

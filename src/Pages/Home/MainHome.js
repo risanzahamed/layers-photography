@@ -3,6 +3,7 @@ import HomeAbout from './HomeAbout';
 import HomeBanner from './HomeBanner';
 import HomeClient from './HomeClient';
 import HomeGridGallary from './HomeGridGallary';
+import ProcessSec from './ProcessSec';
 import Projects from './Projects';
 import Service from './Service';
 import SliderSec from './SliderSec';
@@ -28,6 +29,8 @@ const MainHome = () => {
                 <Service/>
 
                 <Projects/>
+
+                <ProcessSec/>
             </section>
         </div>
     );

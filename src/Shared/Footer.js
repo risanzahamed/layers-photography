@@ -1,29 +1,38 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
         <div>
-            <section className="py-10 bg-[#040404] sm:pt-16 lg:pt-24">
-                <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+            <section className="py-10 bg-[#040404] mx-auto sm:pt-16 lg:pt-24">
+                <div className="px-4 mx-auto sm:px-6 lg:px-8 lg:w-[1550px]">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-y-12 gap-x-12">
                         <div>
                             <img className="w-auto h-7" src="https://assets.website-files.com/630aafd6714b93fb5ac2e35d/63190ef665858f1183ec0def_logo-portrait-template.svg" alt="" />
 
                             <ul className="mt-8 space-y-4">
                                 <li>
-                                    <a href="#" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> About </a>
+                                    <Link to="/home" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Home </Link>
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Features </a>
+                                    <Link to="/services" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Services </Link>
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Works </a>
+                                    <Link to="/book-a-service" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Book A Service </Link>
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Career </a>
+                                    <Link to="/my-booked-service" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> My Booked Service </Link>
+                                </li>
+
+                                <li>
+                                    <Link to="/reviews" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> My Reviews </Link>
+                                </li>
+
+                                <li>
+                                    <Link to="/blog" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Blog </Link>
                                 </li>
                             </ul>
                         </div>
@@ -33,19 +42,19 @@ const Footer = () => {
 
                             <ul className="mt-8 space-y-4">
                                 <li>
-                                    <a href="#" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Customer Support </a>
+                                    <Link  title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Contact Us </Link>
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Delivery Details </a>
+                                    <Link  title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Photo Delivery Details </Link>
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Terms & Conditions </a>
+                                    <Link  title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Terms & Conditions </Link>
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Privacy Policy </a>
+                                    <Link  title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Privacy Policy </Link>
                                 </li>
                             </ul>
                         </div>
@@ -55,19 +64,15 @@ const Footer = () => {
 
                             <ul className="mt-8 space-y-4">
                                 <li>
-                                    <a href="#" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Free eBooks </a>
+                                    <Link  title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Photos </Link>
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Development Tutorial </a>
+                                    <Link  title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Hire Me </Link>
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> How to - Blog </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> YouTube Playlist </a>
+                                    <Link  title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Blog </Link>
                                 </li>
                             </ul>
                         </div>
@@ -77,19 +82,19 @@ const Footer = () => {
 
                             <ul className="mt-8 space-y-4">
                                 <li>
-                                    <a href="#" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Customer Support </a>
+                                    <Link  title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Customer Support </Link>
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Delivery Details </a>
+                                    <Link  title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Delivery Details </Link>
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Terms & Conditions </a>
+                                    <Link  title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Terms & Conditions </Link>
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Privacy Policy </a>
+                                    <Link  title="" className="text-blue-200 transition-all duration-200 hover:text-white focus:text-white"> Privacy Policy </Link>
                                 </li>
                             </ul>
                         </div>
@@ -157,7 +162,7 @@ const Footer = () => {
                                 </ul>
                             </div>
 
-                            <p className="mt-6 text-sm text-blue-200 lg:mt-0">© Copyright 2021, All Rights Reserved by Postcraft</p>
+                            <p className="mt-6 text-sm text-blue-200 lg:mt-0">© Copyright 2021, All Rights Reserved by Layers Photography</p>
                         </div>
                     </div>
                 </div>

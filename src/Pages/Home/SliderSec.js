@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
+import '../../App.css';
 
 /* Install pure-react-carousel using -> npm i pure-react-carousel */
 
@@ -23,9 +24,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/10768835/pexels-photo-10768835.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="black chair and white table" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -39,15 +40,28 @@ export default function SliderSec() {
                                                     
                                                 </div>
                                             </div>
+
+
+                                            {/* <div class="row">
+                                                <div class="frame col-xs-6">
+                                                    <img src="https://pbs.twimg.com/profile_images/378800000601617732/9e87878ffdd67333ac8b81f9da22696a_400x400.jpeg" />
+                                                    <div class="details">
+                                                        <h1>Lorem</h1>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nunc, sollicitudin a nisi sodales, imperdiet dignissim enim. Nam sapien quam</p>
+                                                    </div>
+
+                                                </div>
+
+                                            </div> */}
                                         </div>
                                     </Slide>
                                     <Slide index={2}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/14454924/pexels-photo-14454924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -56,9 +70,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/14446665/pexels-photo-14446665.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -67,9 +81,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/9866754/pexels-photo-9866754.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="black chair and white table" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -78,9 +92,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/15637933/pexels-photo-15637933.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -89,9 +103,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/15172247/pexels-photo-15172247.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -100,9 +114,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/15231897/pexels-photo-15231897.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -111,9 +125,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/15047428/pexels-photo-15047428.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="black chair and white table" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -122,9 +136,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/15330701/pexels-photo-15330701.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -133,9 +147,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/15007908/pexels-photo-15007908.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -144,9 +158,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/15369376/pexels-photo-15369376.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -177,9 +191,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://i.ibb.co/fDngH9G/carosel-1.png" alt="black chair and white table" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -188,9 +202,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://i.ibb.co/DWrGxX6/carosel-2.png" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -199,9 +213,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://i.ibb.co/tCfVky2/carosel-3.png" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -210,9 +224,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://i.ibb.co/rFsGfr5/carosel-4.png" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -221,9 +235,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://i.ibb.co/fDngH9G/carosel-1.png" alt="black chair and white table" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -232,9 +246,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://i.ibb.co/DWrGxX6/carosel-2.png" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -243,9 +257,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://i.ibb.co/tCfVky2/carosel-3.png" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -254,9 +268,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://i.ibb.co/rFsGfr5/carosel-4.png" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -265,9 +279,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://i.ibb.co/fDngH9G/carosel-1.png" alt="black chair and white table" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -276,9 +290,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://i.ibb.co/DWrGxX6/carosel-2.png" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -287,9 +301,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://i.ibb.co/tCfVky2/carosel-3.png" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -298,9 +312,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://i.ibb.co/rFsGfr5/carosel-4.png" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -309,7 +323,7 @@ export default function SliderSec() {
                             </Slider>
                         </div>
                         <ButtonNext role="button" aria-label="slide forward" className="absolute z-30 right-0 mr-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400" id="next">
-                            <svg  viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1L7 7L1 13" stroke="white" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                         </ButtonNext>
@@ -327,13 +341,13 @@ export default function SliderSec() {
                         <div className="w-full h-full mx-auto overflow-x-hidden overflow-y-hidden">
                             <Slider>
                                 <div id="slider" className="h-full w-full flex lg:gap-8 md:gap-6 items-center justify-start transition ease-out duration-700">
-                                <Slide index={0}>
+                                    <Slide index={0}>
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/10768835/pexels-photo-10768835.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="black chair and white table" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -342,9 +356,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/15326426/pexels-photo-15326426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -353,9 +367,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/14454924/pexels-photo-14454924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -364,9 +378,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/14446665/pexels-photo-14446665.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -375,9 +389,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/9866754/pexels-photo-9866754.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="black chair and white table" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -386,9 +400,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/15637933/pexels-photo-15637933.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -397,9 +411,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/15172247/pexels-photo-15172247.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -408,9 +422,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/15231897/pexels-photo-15231897.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -419,9 +433,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/15047428/pexels-photo-15047428.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="black chair and white table" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -430,9 +444,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/15330701/pexels-photo-15330701.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -441,9 +455,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/15007908/pexels-photo-15007908.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -452,9 +466,9 @@ export default function SliderSec() {
                                         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                                             <img src="https://images.pexels.com/photos/15369376/pexels-photo-15369376.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="sitting area" className="object-cover object-center w-full" />
                                             <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                                                
+
                                                 <div className="flex h-full items-end pb-6">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>

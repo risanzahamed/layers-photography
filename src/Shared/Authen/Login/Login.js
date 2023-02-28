@@ -14,12 +14,11 @@ const Login = () => {
         const form = event.target;
         const email = form.email.value;
         const password = form.password.value;
-        console.log(email, password);
         Userlogin(email, password)
             .then(result => {
                 const user = result.user;
                 toast.success('User login Successfully!')
-                navigator(from, { replace: true })
+                navigate(from, { replace: true })
                 console.log(user);
                 form.reset()
             })

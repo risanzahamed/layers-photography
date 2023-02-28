@@ -15,7 +15,6 @@ const Register = () => {
         const email = form.email.value;
         const password = form.password.value;
 
-        console.log(name, email, password);
         
         createUser(email, password)
             .then(result => {
@@ -23,7 +22,7 @@ const Register = () => {
                 toast.success('User created Successfully!')
                 updateName(name)
                 console.log(user);
-                navigator(from, { replace: true })
+                navigate(from, { replace: true })
             })
             .catch(error => {
                 console.log(error)

@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom';
 
 const SingleMyReview = ({ singleReview, user }) => {
 
-    console.log(user);
-
-    console.log(singleReview);
-
     return (
         <div>
             <div className=" flex flex-col w-full max-w-lg p-6 mt-10 divide-y bg-[#FFE4E6] rounded-md divide-gray-700 dark:bg-gray-900 dark:text-gray-100">

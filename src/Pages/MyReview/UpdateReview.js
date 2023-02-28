@@ -1,20 +1,22 @@
 import React, { useContext, useState } from 'react';
 import { toast } from 'react-hot-toast';
-import { Navigate, useLoaderData } from 'react-router-dom';
+import { Navigate, useLoaderData, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../Context/AuthContext';
 
 const UpdateReview = () => {
 
     const userReview = useLoaderData();
-    console.log(userReview);
+
     const [reviews, setReviews] = useState([]);
 
     const { user } = useContext(AuthContext)
 
+    const navigate = useNavigate()
+
     const handleUpdateReview = (event) => {
         event.preventDefault();
         const editedReview = event.target.update.value;
-        console.log(editedReview);
+
 
         const updateReview = {
             review: editedReview
@@ -31,16 +33,17 @@ const UpdateReview = () => {
             .then(res =>  res.json()
             )
             .then(data => {
-                console.log(data);
+        
                 if (data.modifiedCount > 0) {
-                   toast.success("new review added")
+                   
                     event.target.reset();
+                    navigate("/reviews")
+                    toast.success("new review added")
                     //show the updated review
                     fetch(`https://layers-photography-server.vercel.app/my-review?email=${user?.email}`)
                         .then(res =>  res.json()
                         )
                         .then(data => {
-                            console.log(data);
                            
                         })
                 }

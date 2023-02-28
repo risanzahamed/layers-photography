@@ -13,8 +13,8 @@ const Service = () => {
     }, [])
     return (
         <div>
-            <div className="max-w-2xl mt-20 mx-auto text-center">
-                <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Our Famous Services</h2>                
+            <div className=" mt-20 mx-auto text-center">
+            <h2 class="text-3xl text-center font-bold font-serif leading-tight text-white sm:text-4xl lg:text-8xl lg:leading-tight m-14 p-14">Our Famous  <span className='text-[#C48F56] '>Services.</span></h2>
             </div>
             <div className="grid container   grid-cols-1 mx-auto  lg:mt-16 lg:grid-cols-3 ">
 

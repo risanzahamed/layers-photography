@@ -1,10 +1,6 @@
 import React from 'react';
 
 const UserReview = ({ singleReview, user }) => {
-
-    console.log(user);
-
-    console.log(singleReview);
     return (
         <div>
             <div className=" flex flex-col bg-[#FFE4E6] w-full max-w-lg p-6 mt-10 divide-y rounded-md divide-gray-700 dark:bg-gray-900 dark:text-gray-100">

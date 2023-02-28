@@ -9,12 +9,12 @@ const HomeBanner = () => {
                     <div className="grid items-center  grid-cols-1 gap-y-12 lg:grid-cols-2 lg:gap-x-8 2xl:gap-x-20">
                         <div>
                             <h2 className="text-4xl slide-up font-bold font-serif leading-none text-white sm:text-4xl lg:text-7xl lg:leading-tight">
-                                Hi, I'm Sophie <br />
+                                Hi, I'm Noman <br />
                                 — a Professional <br />
                                 Photographer </h2>
                             <div className='lg:w-[500px]'>
                                 <p className=" text-2xl slide-up-2 mt-8 font-sans text-gray-50">
-                                    Based in New York, I specialize in landscape,
+                                    Based in Bangladesh, I specialize in landscape,
                                     advertorial and conceptual photography.
                                     Here you will be able to find my latest shots.</p>
                             </div>
