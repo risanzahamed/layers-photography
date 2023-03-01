@@ -54,14 +54,14 @@ const BookService = () => {
                             <form onSubmit={handleBookService} action="#" method="POST" className="mt-8">
                                 <div className="space-y-5">
                                     <div>
-                                        <label for="" className="text-base font-medium text-white"> Your Name </label>
+                                        <label for="" className="text-base font-medium text-black"> Your Name </label>
                                         <div className="mt-2.5">
                                             <input
                                                 type="text"
                                                 name="yourName"
                                                 id=""
                                                 placeholder="Provide your name"
-                                                className="block w-full p-4 text-white placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
+                                                className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
                                             />
                                         </div>
                                     </div>
