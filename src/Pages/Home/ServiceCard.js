@@ -19,7 +19,7 @@ const ServiceCard = ({ data }) => {
                             <p className="mt-6 text-xl font-semibold">
                                 <a href="#" title="" className="text-white"> {data.serviceName} </a>
                             </p>
-                            <p className="mt-4 text-white">{data.details}</p>
+                            <p className="mt-4 text-white">{data.details.slice(0,100)}...</p>
 
 
                             <p className="mt-6 text-xl font-semibold">

@@ -17,9 +17,7 @@ const HomeAbout = () => {
             <div className='slide-up-3'>
               <h2 className="text-base font-medium text-white">ABOUT US</h2>
 
-              <p className="mt-4 text-2xl leading-relaxed font-sans text-gray-50">Professional photo shooting of weddings, holidays and celebrations.
-                RETOUCH
-                Post-processing of photos, preparation for printing, video recording.</p>
+              <p className="mt-4 text-2xl leading-relaxed font-sans text-gray-50">Welcome to my photography business, based in Bangladesh. I'm Noman, a passionate photographer who specializes in a variety of photography services, including live event photoshoots, wedding photography, live videography, and wild photography. With years of experience in the industry, I pride myself on my ability to capture unforgettable moments and create stunning visual stories that my clients can treasure for a lifetime.</p>
             </div>
           </div>
         </div>

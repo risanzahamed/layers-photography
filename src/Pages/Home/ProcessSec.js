@@ -30,7 +30,7 @@ const ProcessSec = () => {
                             <div className='p-10 w-60%'>
                                 <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-8xl lg:leading-tight">01.</h2>
                                 <h2 class="text-3xl font-medium leading-tight font-serif mt-10 mb-10 text-white sm:text-4xl lg:text-5xl lg:leading-tight">You select a package and set a date</h2>
-                                <p class="mt-4 text-xl text-gray-50">Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                                <p class="mt-4 text-xl text-gray-50">The "You Select a Package and Set a Date" section is where we establish the foundation of our collaboration. By choosing a package and setting a date, we can move forward with planning and preparing for your shoot. I am committed to providing you with a smooth and stress-free experience, and this section is an important part of that process.</p>
 
                                 <div className='divide-y-4 mt-10 text-2xl text-yellow-600'><h2>1st Step</h2></div>
                             </div>
@@ -54,7 +54,7 @@ const ProcessSec = () => {
                             <div className='p-10 w-60%'>
                                 <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-8xl lg:leading-tight">02.</h2>
                                 <h2 class="text-3xl font-medium leading-tight font-serif mt-10 mb-10 text-white sm:text-4xl lg:text-5xl lg:leading-tight">I take the pictures and prepare your album</h2>
-                                <p class="mt-4 text-xl text-gray-50">Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                                <p class="mt-4 text-xl text-gray-50">The "I Take the Pictures and Prepare Your Album" section is where the magic happens. After our shoot, I'll go through the images and select the best ones to prepare your album. My goal is to provide you with a beautiful and timeless album that captures the essence of your event or shoot. With my keen eye for detail and expertise in post-production, I'll ensure that your images are polished and perfect. I'm committed to delivering a product that you will treasure for years to come.</p>
 
                                 <div className='divide-y-4 mt-10 text-2xl text-yellow-600'><h2>2nd Step</h2></div>
                             </div>
@@ -88,7 +88,7 @@ const ProcessSec = () => {
                             <div className='p-10 w-60%'>
                                 <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-8xl lg:leading-tight">03.</h2>
                                 <h2 class="text-3xl font-medium leading-tight font-serif mt-10 mb-10 text-white sm:text-4xl lg:text-5xl lg:leading-tight">I send the deliverables to you on time</h2>
-                                <p class="mt-4 text-xl text-gray-50">Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                                <p class="mt-4 text-xl text-gray-50">The "I Send the Deliverables to You on Time" section is the final step in our collaboration. Once I've prepared your album or video, I'll send the final deliverables to you on time, so you can relive the moments we captured together. My commitment to timely delivery is an important part of my photography services, and I take pride in providing a seamless experience for my clients. With your deliverables in hand, you can share your memories with loved ones and cherish them for years to come.</p>
 
                                 <div className='divide-y-4 mt-10 text-2xl text-yellow-600'><h2>3rd Step</h2></div>
                             </div>
