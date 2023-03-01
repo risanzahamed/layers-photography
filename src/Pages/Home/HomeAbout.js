@@ -3,7 +3,7 @@ import React from 'react';
 const HomeAbout = () => {
   return (
     <div>
-      <section className="py-10 mt-20  sm:py-16 lg:py-24">
+      <section className="py-10 lg:mt-20  sm:py-16 lg:py-24">
         <div className="max-w-[1550px] px-4 mx-auto sm:px-6 ">
           <div className="grid items-center md:grid-cols-2 ">
             <div className=" sm:pr-0">

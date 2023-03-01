@@ -41,8 +41,6 @@ const BookService = () => {
                 toast.success("The service you want is booked. Our Team will contact you!!")
             })
     }
-
-
     return (
         <div className='lg:w-[1550px] bg-black mx-auto'>
             <section className="bg-black">
