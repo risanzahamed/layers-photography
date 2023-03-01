@@ -1,6 +1,9 @@
 import React from 'react';
 import photoHero from "../../images/photo-header.JPG"
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const HomeBanner = () => {
     return (
         <div>
@@ -30,7 +33,7 @@ const HomeBanner = () => {
                             </div>
                         </div>
 
-                        <div className=" slide-up-img px-12">
+                        <div data-aos="fade-left" className="  px-12">
 
                             <img className=" w-full mx-auto " src="https://templates.hibootstrap.com/povi/default/assets/img/hero/hero-img-1.png" alt="" />
                         </div>

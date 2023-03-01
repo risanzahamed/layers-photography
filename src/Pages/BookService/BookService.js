@@ -49,7 +49,7 @@ const BookService = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2">
                     <div className="flex items-center  justify-center px-4 py-10 bg-black sm:px-6 lg:px-8 sm:py-16 lg:py-24">
                         <div className="">
-                            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl">Use our Platfom and Book your Service</h2>
+                            <h2 data-aos="flip-up"  data-aos-duration="1500" className="text-3xl font-bold leading-tight text-white sm:text-4xl">Use our Platfom and Book your Service</h2>
 
                             <form onSubmit={handleBookService} action="#" method="POST" className="mt-8">
                                 <div className="space-y-5">
@@ -121,7 +121,7 @@ const BookService = () => {
                                     </div>
 
                                     <div>
-                                        <button type="submit" className="inline-flex bg-[#C48836] items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700">Book Now</button>
+                                        <button type="submit" className="inline-flex bg-[#C48836] items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200  border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700">Book Now</button>
                                     </div>
                                 </div>
                             </form>
@@ -129,7 +129,7 @@ const BookService = () => {
                     </div>
 
                     <div className="flex items-center justify-center  px-4 py-10 sm:py-16 lg:py-24 bg-black sm:px-6 lg:px-8">
-                        <div>
+                        <div  data-aos="zoom-in"  data-aos-duration="1500">
                             <img className="w-[800px] mx-auto" src="https://cdn.pixabay.com/photo/2017/08/06/20/11/wedding-2595862_960_720.jpg" alt="" />
                         </div>
                     </div>

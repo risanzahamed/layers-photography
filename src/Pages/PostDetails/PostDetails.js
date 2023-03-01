@@ -68,24 +68,24 @@ const PostDetails = () => {
 
                             <PhotoProvider>
                                 <PhotoView src={post.image}>
-                                    <img className="object-cover w-[1200px] h-[450px]" src={post.image} alt="" />
+                                    <img data-aos="flip-up"  data-aos-duration="1500" className="object-cover w-[1200px] h-[450px]" src={post.image} alt="" />
                                 </PhotoView>
                             </PhotoProvider>
                             <span className="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-rose-500 bg-rose-100 mt-9"> {post.categoryName} </span>
-                            <p className="mt-6 text-xl font-semibold">
+                            <p data-aos="zoom-in"  data-aos-duration="1500" className="mt-6 text-xl font-semibold">
                                 <a href="#" title="" className="text-white"> {post.serviceName} </a>
                             </p>
-                            <p className="mt-4 text-white">{post.details}</p>
+                            <p data-aos="zoom-in"  data-aos-duration="1500" className="mt-4 text-white">{post.details}</p>
 
 
-                            <p className="mt-6 text-xl font-semibold">
+                            <p data-aos="zoom-in"  data-aos-duration="1500" className="mt-6 text-xl font-semibold">
                                 <a href="#" title="" className="text-white"> {post.packagePrice} </a>
                             </p>
                         </div>
 
                         {/* show reviews */}
 
-                        <div className='grid lg:grid-cols-3 gap-10'>
+                        <div data-aos="zoom-in"  data-aos-duration="1500" className='grid lg:grid-cols-3 gap-10'>
                             {
                                 review.map(singleReview => <UserReview
                                     key={singleReview._id}
@@ -102,7 +102,7 @@ const PostDetails = () => {
                         <h2 className='text-2xl font-semibold text-white mt-24'>Post Your Review Here</h2>
 
                         {
-                            user?.uid ? <div className="overflow-hidden max-w-2xl bg-black rounded-md shadow-md">
+                            user?.uid ? <div data-aos="zoom-in"  data-aos-duration="1500" className="overflow-hidden max-w-2xl bg-black rounded-md shadow-md">
                                 <div className=" my-10">
                                     <form onSubmit={handlePostReview}>
                                         <div className="space-y-5">

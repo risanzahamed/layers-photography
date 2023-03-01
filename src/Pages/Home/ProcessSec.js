@@ -1,4 +1,6 @@
 import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ProcessSec = () => {
     return (
@@ -8,7 +10,7 @@ const ProcessSec = () => {
                     <div class=" sm:py-16 lg:py-24 2xl:pl-24">
                         <div class="grid items-center lg:w-[1400px] grid-cols-1 gap-y-12 lg:grid-cols-1 lg:gap-x-8 2xl:gap-x-20">
                             <div>
-                                <h2 class="text-3xl text-center font-bold font-serif leading-tight text-white sm:text-4xl lg:text-8xl lg:leading-tight">My work <span className='text-[#C48F56]'>process</span> </h2>
+                                <h2 data-aos="flip-up"  data-aos-duration="1500" class="text-3xl text-center font-bold font-serif leading-tight text-white sm:text-4xl lg:text-8xl lg:leading-tight">My work <span className='text-[#C48F56]'>process</span> </h2>
                             </div>
 
 
@@ -22,10 +24,9 @@ const ProcessSec = () => {
                 <div class="4 mx-auto overflow-hidden bg-[#040404] ">
                     <div class="">
                         <div class="grid items-center grid-cols-1  lg:grid-cols-2 lg:gap-x-8 2xl:gap-x-20">
-                            <div class=" w-40% ">
+                            <div data-aos="fade-right" class=" w-40% ">
                                 <img className='lg:w-[1200px] lg:h-[500px]' src="https://assets.website-files.com/60fb9da121621b5a7f90d9cd/615c7cc16937f16228889b04_maksym-kaharlytskyi-GwAYapqJKoM-unsplash%20(1)-p-1080.jpeg" alt="" />
                             </div>
-
 
                             <div className='p-10 w-60%'>
                                 <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-8xl lg:leading-tight">01.</h2>
@@ -41,13 +42,12 @@ const ProcessSec = () => {
                 </div>
 
 
-
-
                 <div class="4 mx-auto mt-20 overflow-hidden  bg-[#040404] ">
                     <div class="">
                         <div class="grid items-center grid-cols-1  lg:grid-cols-2 lg:gap-x-8 2xl:gap-x-20">
 
-                            <div class=" w-40%  visible lg:hidden sm:visible xl:visible 2xl:visible  ">
+                            <div data-aos="fade-left"
+                                class=" w-40%  visible lg:hidden sm:visible xl:visible 2xl:visible  ">
                                 <img className='lg:w-[1200px] lg:h-[500px]' src="https://assets.website-files.com/60fb9da121621b5a7f90d9cd/615ca7a08e23ef801116e16d_jon-tyson-A-obUh61bKw-unsplash%20(1)-p-1080.jpeg" alt="" />
                             </div>
 
@@ -60,7 +60,8 @@ const ProcessSec = () => {
                             </div>
 
 
-                            <div class=" w-40% hidden lg:block  ">
+                            <div data-aos="fade-left"
+                                class=" w-40% hidden lg:block  ">
                                 <img className='lg:w-[1200px]  lg:h-[500px]' src="https://assets.website-files.com/60fb9da121621b5a7f90d9cd/615ca7a08e23ef801116e16d_jon-tyson-A-obUh61bKw-unsplash%20(1)-p-1080.jpeg" alt="" />
                             </div>
 
@@ -80,7 +81,8 @@ const ProcessSec = () => {
                 <div class="4 mx-auto mt-20 overflow-hidden bg-[#040404] ">
                     <div class="">
                         <div class="grid items-center grid-cols-1  lg:grid-cols-2 lg:gap-x-8 2xl:gap-x-20">
-                            <div class=" w-40% ">
+                            <div data-aos="fade-right"
+                                class=" w-40% ">
                                 <img className='lg:w-[1200px] lg:h-[500px]' src="https://assets.website-files.com/60fb9da121621b5a7f90d9cd/615ca7a565f71fb9d4da3983_samsung-memory-TRD0wNN0wI4-unsplash%20(1)-p-1080.jpeg" alt="" />
                             </div>
 

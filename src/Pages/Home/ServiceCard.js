@@ -6,7 +6,7 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 const ServiceCard = ({ data }) => {
     return (
         <div>
-            <section className="py-10 sm:py-16 ">
+            <section data-aos="zoom-in"  data-aos-duration="1600" className="py-10 sm:py-16 ">
                 <div className="px-4 mx-auto sm:px-6 max-w-7xl">
                     <div >
                         <div>

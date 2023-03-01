@@ -4,9 +4,9 @@ const Tabs = ({ color }) => {
     const [openTab, setOpenTab] = React.useState(1);
     return (
         <>
-            <div className="flex flex-wrap lg:w-[1450px] mx-auto">
+            <div data-aos="zoom-in"   data-aos-duration="1600" className="flex flex-wrap lg:w-[1450px] mx-auto">
                 <div className="lg:w-[1500px] mx-auto">
-                    <ul
+                    <ul   data-aos-duration="1600"
                         className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
                         role="tablist"
                     >
@@ -108,10 +108,10 @@ const Tabs = ({ color }) => {
                             </a>
                         </li>
                     </ul>
-                    <div className="relative flex flex-col min-w-0 break-words  w-full mb-6 shadow-lg rounded">
+                    <div  className="relative flex flex-col min-w-0 break-words  w-full mb-6 shadow-lg rounded">
                         <div className="px-4 py-5 flex-auto">
                             <div className="tab-content tab-space">
-                                <div className={openTab === 1 ? "block" : "hidden"} id="link1">
+                                <div  className={openTab === 1 ? "block" : "hidden"} id="link1">
                                     <div className="grid lg:grid-cols-3 grid-cols-2  gap-10">
                                         <div>
                                             <img src="https://www.iconi.hocud.com/wp-content/uploads/2021/10/unusual-wedding-photography-sunset-in-muntains-with-silhouettes-newlyweds.jpg" alt="" srcset="" />
@@ -134,7 +134,7 @@ const Tabs = ({ color }) => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className={openTab === 2 ? "block" : "hidden"} id="link2">
+                                <div   className={openTab === 2 ? "block" : "hidden"} id="link2">
                                     <div className="grid lg:grid-cols-3 grid-cols-2  gap-10">
                                         <div>
                                             <img src="https://www.iconi.hocud.com/wp-content/uploads/2021/10/the-man-and-the-woman-dancing-argentinian-tango-1.jpg" alt="" srcset="" />
@@ -148,7 +148,7 @@ const Tabs = ({ color }) => {
 
                                     </div>
                                 </div>
-                                <div className={openTab === 3 ? "block" : "hidden"} id="link3">
+                                <div   className={openTab === 3 ? "block" : "hidden"} id="link3">
                                     <div className="grid lg:grid-cols-3 grid-cols-2  gap-10">
                                         <div>
                                             <img src="https://www.iconi.hocud.com/wp-content/uploads/2021/10/tricolor-cat.jpg" alt="" srcset="" />
@@ -175,7 +175,7 @@ const Tabs = ({ color }) => {
                                 </div>
 
 
-                                <div className={openTab === 4 ? "block" : "hidden"} id="link4">
+                                <div   className={openTab === 4 ? "block" : "hidden"} id="link4">
                                     <div className="grid lg:grid-cols-3 grid-cols-2  gap-10">
                                         <div>
                                             <img src="https://www.iconi.hocud.com/wp-content/uploads/2021/10/classical-ballet-dancer-in-motion-on-the-stage-1-500x500.jpg" alt="" srcset="" />
@@ -191,7 +191,7 @@ const Tabs = ({ color }) => {
                                 </div>
 
 
-                                <div className={openTab === 5 ? "block" : "hidden"} id="link5">
+                                <div   className={openTab === 5 ? "block" : "hidden"} id="link5">
                                     <div className="grid lg:grid-cols-3 grid-cols-2  gap-10">
                                         <div>
                                             <img src="https://www.iconi.hocud.com/wp-content/uploads/2021/10/closeup-portrait-of-an-young-adult-girl-with-long-curly-hair-fashion-model.jpg" alt="" srcset="" />

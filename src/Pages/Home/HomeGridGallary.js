@@ -7,7 +7,7 @@ const HomeGridGallary = () => {
             <section className=" mx-auto sm:py-16 ">
                 <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                     <div className="grid items-center grid-cols-2 gap-10  sm:grid-cols-3 xl:grid-cols-4">
-                        <div className='mt-10 slide-up'>
+                        <div data-aos="zoom-in"  data-aos-duration="1500" className='mt-10 '>
 
                             <PhotoProvider>
                                 <PhotoView src="https://wpbingosite.com/wordpress/monisa/wp-content/uploads/2019/08/gallery-3.jpg">
@@ -17,7 +17,7 @@ const HomeGridGallary = () => {
 
                         </div>
 
-                        <div className='mt-10 slide-up'>
+                        <div data-aos="zoom-in"  data-aos-duration="1500" className='mt-10 '>
 
                             <PhotoProvider>
                                 <PhotoView src="https://wpbingosite.com/wordpress/monisa/wp-content/uploads/2019/08/gallery-5.jpg">
@@ -26,7 +26,7 @@ const HomeGridGallary = () => {
                             </PhotoProvider>
                         </div>
 
-                        <div className='slide-up-2'>
+                        <div data-aos="zoom-in"  data-aos-duration="1500">
                             <PhotoProvider>
                                 <PhotoView src="https://wpbingosite.com/wordpress/monisa/wp-content/uploads/2019/08/gallery-1.jpg">
                                     <img src="https://wpbingosite.com/wordpress/monisa/wp-content/uploads/2019/08/gallery-1.jpg" alt="" srcSet="" />
@@ -37,7 +37,7 @@ const HomeGridGallary = () => {
 
                         </div>
 
-                        <div className='mt-10 slide-up-2'>
+                        <div data-aos="zoom-in"  data-aos-duration="1500" className='mt-10 '>
 
                             <PhotoProvider>
                                 <PhotoView src="https://wpbingosite.com/wordpress/monisa/wp-content/uploads/2019/08/gallery-2.jpg">

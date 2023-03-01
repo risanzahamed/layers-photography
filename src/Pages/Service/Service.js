@@ -16,7 +16,7 @@ const Service = () => {
         <div className='bg-black'>
             <div className=" pt-12 mx-auto text-center">
                 
-                <h2 class="text-3xl text-center font-bold font-serif leading-tight text-white sm:text-4xl lg:text-8xl lg:leading-tight m-14 p-14">Our Famous  <span className='text-[#C48F56] '>Services.</span></h2>
+                <h2 data-aos="flip-up"  data-aos-duration="1500" class="text-3xl text-center font-bold font-serif leading-tight text-white sm:text-4xl lg:text-8xl lg:leading-tight m-14 p-14">Our Famous  <span className='text-[#C48F56] '>Services.</span></h2>
             </div>
             <div className="grid container   grid-cols-1 mx-auto  lg:mt-16 lg:grid-cols-3 gap-x-16 gap-y-12">
 
