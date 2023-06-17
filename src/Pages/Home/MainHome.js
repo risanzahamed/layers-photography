@@ -7,6 +7,8 @@ import ProcessSec from './ProcessSec';
 import Projects from './Projects';
 import Service from './Service';
 import SliderSec from './SliderSec';
+import PricingTable from './PricingTable';
+import Contact from './Contact';
 
 const MainHome = () => {
     return (
@@ -31,6 +33,10 @@ const MainHome = () => {
                 <Projects/>
 
                 <ProcessSec/>
+
+                <PricingTable/>
+
+                <Contact/>
             </section>
         </div>
     );
